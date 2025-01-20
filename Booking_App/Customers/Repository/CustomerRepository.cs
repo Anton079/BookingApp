@@ -1,0 +1,146 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Booking_App.Customers.Models;
+
+namespace Booking_App.Customers.Repository
+{
+    public class CustomerRepository : ICustomerRepository
+    {
+        private List<Customer> customerList;
+
+        public CustomerRepository()
+        {
+            customerList = new List<Customer>();
+            LoadData();
+        }
+
+        public void LoadData()
+        {
+            try
+            {
+                using (StreamReader sr = new StreamReader(GetFilePath()))
+                {
+                    string line = "";
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        Customer customer = new Customer(line);
+                        customerList.Add(customer);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        public string GetFilePath()
+        {
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string folder = Path.Combine(currentDirectory, "data");
+            string file = Path.Combine(folder, "Customer");
+            return file;
+        }
+
+        private void SaveData()
+        {
+            try
+            {
+                using (StreamWriter sw = new StreamWriter(GetFilePath()))
+                {
+                    sw.WriteLine(ToSaveAll());
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        public string ToSaveAll()
+        {
+            string save = "";
+            for (int i = 0; i < customerList.Count; i++)
+            {
+                save += customerList[i].ToString();
+                if (i < customerList.Count - 1)
+                {
+                    save += "\n";
+                }
+            }
+            return save;
+        }
+
+        // CRUD 
+
+        public List<Customer> GetAll()
+        {
+            return customerList;
+        }
+
+        public Customer AddCustomer(Customer customer)
+        {
+            customerList.Add(customer);
+            SaveData();
+            return customer;
+        }
+
+        public Customer Remove(int id)
+        {
+            Customer cs = FindById(id);
+
+            customerList.Remove(cs);
+            SaveData();
+            return cs;
+        }
+
+        public Customer FindById(int id)
+        {
+            foreach (Customer customer in customerList)
+            {
+                if (customer.Id == id)
+                {
+                    return customer;
+                }
+            }
+            return null;
+        }
+
+        public Customer UpdateCustomer(int id, Customer customer)
+        {
+            Customer customerUpdate = FindById(id);
+
+            if (customerUpdate != null)
+            {
+
+                customerUpdate.FirstName = customer.FirstName;
+                customerUpdate.LastName = customer.LastName;
+                customerUpdate.Email = customer.Email;
+                customerUpdate.Password = customer.Password;
+                customerUpdate.MembershipLevel = customer.MembershipLevel;
+                customerUpdate.PreferredPaymentMethod = customer.PreferredPaymentMethod;
+
+                SaveData();
+            }
+            Console.WriteLine("Este null");
+            return customerUpdate;
+        }
+
+        public int GenerateId()
+        {
+            Random rand = new Random();
+
+            int id = rand.Next(0, 1000000);
+
+            while (FindById(id) != null)
+            {
+                id = rand.Next(0, 100000);
+            }
+            return id;
+        }
+
+    }
+}

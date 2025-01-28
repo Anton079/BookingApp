@@ -11,37 +11,40 @@ namespace Booking_App.TravelHistorys.Repository
     {
         private List<TravelHistory> travelHistoryList;
 
-        //public TravelHistoryRepository()
-        //{
-        //    travelHistoryList = new List<TravelHistory>();
-        //    LoadData();
-        //}
+        public TravelHistoryRepository()
+        {
+            travelHistoryList = new List<TravelHistory>();
+            LoadData();
+        }
 
-        //public void LoadData()
-        //{
-        //    try
-        //    {
-        //        using (StreamReader sr = new StreamReader(GetFilePath()))
-        //        {
-        //            string line = "";
-        //            while ((line = sr.ReadLine()) != null)
-        //            {
-        //                TravelHistory travelHistory = new TravelHistory(line);
-        //                travelHistoryList.Add(travelHistory);
-        //            }
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Console.WriteLine(ex.Message);
-        //    }
-        //}
+        public void LoadData()
+        {
+            try
+            {
+                using (StreamReader sr = new StreamReader(GetFilePath()))
+                {
+                    string line = "";
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        TravelHistory travelHistory = new TravelHistory(line);
+                        travelHistoryList.Add(travelHistory);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
 
         public string GetFilePath()
         {
             string currentDirectory = Directory.GetCurrentDirectory();
+
             string folder = Path.Combine(currentDirectory, "data");
+
             string file = Path.Combine(folder, "TravelHistory");
+
             return file;
         }
 
@@ -108,5 +111,23 @@ namespace Booking_App.TravelHistorys.Repository
             }
             return null;
         }
+
+        public TravelHistory UpdateTravelHistory (int id, TravelHistory travelHistory)
+        {
+            TravelHistory existingTravelHistory = FindById(id);
+
+            if (existingTravelHistory != null)
+            {
+                existingTravelHistory.CustomerId = travelHistory.CustomerId;
+                existingTravelHistory.PropertyId = travelHistory.PropertyId;
+                existingTravelHistory.StartDate = travelHistory.StartDate;
+                existingTravelHistory.EndDate = travelHistory.EndDate;
+
+                SaveData();
+            }
+
+            return existingTravelHistory;
+        }
+
     }
 }

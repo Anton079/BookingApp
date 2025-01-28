@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Horia\\source\\repos\\Booking_App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\users\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\users\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\users\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\users\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\users\\service\\userqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\users\\service\\userqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\users\\service\\usercommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\users\\service\\usercommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\viewadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\viewadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\viewcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\viewcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\travelhistorys\\repository\\itravelhistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\travelhistorys\\repository\\itravelhistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\viewlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\viewlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\users\\service\\iusercommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\users\\service\\iusercommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\users\\service\\iuserqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\users\\service\\iuserqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\users\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\users\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\propertys\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\propertys\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\users\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\users\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\propertys\\repository\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\propertys\\repository\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\travelhistorys\\repository\\travelhistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,124 +67,72 @@
       "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\travelhistorys\\models\\travelhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\propertys\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\propertys\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\propertys\\repository\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\propertys\\repository\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\customers\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\customers\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\system\\exceptionmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\system\\exceptionmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\customers\\service\\icustomerqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\customers\\service\\icustomerqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\customers\\service\\customerqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\customers\\service\\customerqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\customers\\service\\icustomercommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\customers\\service\\icustomercommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\customers\\service\\customercommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\customers\\service\\customercommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\admins\\service\\iadminqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\admins\\service\\iadminqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\admins\\service\\iadmincommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\admins\\service\\iadmincommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\admins\\service\\adminqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\admins\\service\\adminqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\admins\\service\\admincommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\admins\\service\\admincommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\admins\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\admins\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\admins\\repository\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\admins\\repository\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\admins\\exceptions\\nulladminexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\admins\\exceptions\\nulladminexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\admins\\exceptions\\adminnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\admins\\exceptions\\adminnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\customers\\exceptions\\customernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\customers\\exceptions\\customernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\customers\\exceptions\\nullcustomerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\customers\\exceptions\\nullcustomerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\customers\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\customers\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\customers\\repository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\customers\\repository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\propertys\\exceptions\\nullpropertyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\propertys\\exceptions\\nullpropertyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\propertys\\exceptions\\propertynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\propertys\\exceptions\\propertynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\propertys\\repository\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\propertys\\repository\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\propertys\\service\\ipropertycommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\propertys\\service\\ipropertycommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\propertys\\service\\ipropertyqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\propertys\\service\\ipropertyqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\propertys\\service\\proprtycommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\propertys\\service\\proprtycommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\propertys\\service\\propertyqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\propertys\\service\\propertyqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\users\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\users\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\admins\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\admins\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\travelhistorys\\service\\itravelhistoryqueryservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\travelhistorys\\service\\itravelhistoryqueryservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\travelhistorys\\service\\itravelhistorycommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\travelhistorys\\service\\itravelhistorycommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\travelhistorys\\service\\travelhistoryqueryservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\travelhistorys\\service\\travelhistoryqueryservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\travelhistorys\\service\\travelhistorycommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\travelhistorys\\service\\travelhistorycommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\users\\exceptions\\nulluserexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\users\\exceptions\\nulluserexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\users\\exceptions\\nullcustomerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\users\\exceptions\\nullcustomerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\users\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\users\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\users\\exceptions\\customernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\users\\exceptions\\customernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\users\\exceptions\\nulladminexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\users\\exceptions\\nulladminexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\users\\exceptions\\adminnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\users\\exceptions\\adminnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\travelhistorys\\repository\\itravelhistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\travelhistorys\\repository\\itravelhistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\propertys\\repository\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\propertys\\repository\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\propertys\\exceptions\\propertynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\propertys\\exceptions\\propertynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|c:\\users\\horia\\source\\repos\\booking_app\\booking_app\\propertys\\service\\ipropertyqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A60660-B272-493D-8685-18BC6CF361F3}|Booking_App\\Booking_App.csproj|solutionrelative:booking_app\\propertys\\service\\ipropertyqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -151,343 +147,360 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Users\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Booking_App\\Users\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAHAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T23:53:51.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ViewCustomer.cs",
               "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\ViewCustomer.cs",
               "RelativeDocumentMoniker": "Booking_App\\ViewCustomer.cs",
               "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\ViewCustomer.cs",
               "RelativeToolTip": "Booking_App\\ViewCustomer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T16:42:23.081Z",
+              "WhenOpened": "2025-01-23T15:07:06.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ITravelHistoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Repository\\ITravelHistoryRepository.cs",
-              "RelativeDocumentMoniker": "Booking_App\\TravelHistorys\\Repository\\ITravelHistoryRepository.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Repository\\ITravelHistoryRepository.cs",
-              "RelativeToolTip": "Booking_App\\TravelHistorys\\Repository\\ITravelHistoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "ProprtyCommandService.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Service\\ProprtyCommandService.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Propertys\\Service\\ProprtyCommandService.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Service\\ProprtyCommandService.cs",
+              "RelativeToolTip": "Booking_App\\Propertys\\Service\\ProprtyCommandService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T16:22:40.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TravelHistoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Repository\\TravelHistoryRepository.cs",
-              "RelativeDocumentMoniker": "Booking_App\\TravelHistorys\\Repository\\TravelHistoryRepository.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Repository\\TravelHistoryRepository.cs",
-              "RelativeToolTip": "Booking_App\\TravelHistorys\\Repository\\TravelHistoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T16:22:28.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ICustomerQueryService.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Service\\ICustomerQueryService.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Customers\\Service\\ICustomerQueryService.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Service\\ICustomerQueryService.cs",
-              "RelativeToolTip": "Booking_App\\Customers\\Service\\ICustomerQueryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T15:14:18.221Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ICustomerCommandService.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Service\\ICustomerCommandService.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Customers\\Service\\ICustomerCommandService.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Service\\ICustomerCommandService.cs",
-              "RelativeToolTip": "Booking_App\\Customers\\Service\\ICustomerCommandService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T15:13:50.389Z"
+              "WhenOpened": "2025-01-08T15:58:38.505Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "CustomerQueryService.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Service\\CustomerQueryService.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Customers\\Service\\CustomerQueryService.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Service\\CustomerQueryService.cs",
-              "RelativeToolTip": "Booking_App\\Customers\\Service\\CustomerQueryService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBsAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T15:14:36.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CustomerCommandService.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Service\\CustomerCommandService.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Customers\\Service\\CustomerCommandService.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Service\\CustomerCommandService.cs",
-              "RelativeToolTip": "Booking_App\\Customers\\Service\\CustomerCommandService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAIwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T15:13:24.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ExceptionMessages.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\System\\ExceptionMessages.cs",
-              "RelativeDocumentMoniker": "Booking_App\\System\\ExceptionMessages.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\System\\ExceptionMessages.cs",
-              "RelativeToolTip": "Booking_App\\System\\ExceptionMessages.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T14:08:19.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TravelHistory.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Models\\TravelHistory.cs",
-              "RelativeDocumentMoniker": "Booking_App\\TravelHistorys\\Models\\TravelHistory.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Models\\TravelHistory.cs",
-              "RelativeToolTip": "Booking_App\\TravelHistorys\\Models\\TravelHistory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T22:00:36.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PropertyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Repository\\PropertyRepository.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Propertys\\Repository\\PropertyRepository.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Repository\\PropertyRepository.cs",
-              "RelativeToolTip": "Booking_App\\Propertys\\Repository\\PropertyRepository.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwEAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T14:57:34.593Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Property.cs",
               "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Models\\Property.cs",
               "RelativeDocumentMoniker": "Booking_App\\Propertys\\Models\\Property.cs",
               "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Models\\Property.cs",
               "RelativeToolTip": "Booking_App\\Propertys\\Models\\Property.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAYwHcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:08:53.837Z"
+              "WhenOpened": "2025-01-20T15:08:53.837Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\User.cs",
-              "RelativeDocumentMoniker": "Booking_App\\User.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\User.cs",
-              "RelativeToolTip": "Booking_App\\User.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFMAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ViewLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\ViewLogin.cs",
+              "RelativeDocumentMoniker": "Booking_App\\ViewLogin.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\ViewLogin.cs",
+              "RelativeToolTip": "Booking_App\\ViewLogin.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAIA7wF8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T19:57:13.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IAdminQueryService.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Service\\IAdminQueryService.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Admins\\Service\\IAdminQueryService.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Service\\IAdminQueryService.cs",
-              "RelativeToolTip": "Booking_App\\Admins\\Service\\IAdminQueryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T14:58:38.298Z"
+              "WhenOpened": "2025-01-28T00:21:27.793Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "IAdminCommandService.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Service\\IAdminCommandService.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Admins\\Service\\IAdminCommandService.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Service\\IAdminCommandService.cs",
-              "RelativeToolTip": "Booking_App\\Admins\\Service\\IAdminCommandService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "TravelHistory.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Models\\TravelHistory.cs",
+              "RelativeDocumentMoniker": "Booking_App\\TravelHistorys\\Models\\TravelHistory.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Models\\TravelHistory.cs",
+              "RelativeToolTip": "Booking_App\\TravelHistorys\\Models\\TravelHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T14:57:32.808Z"
+              "WhenOpened": "2025-01-23T14:59:09.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AdminQueryService.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Service\\AdminQueryService.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Admins\\Service\\AdminQueryService.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Service\\AdminQueryService.cs",
-              "RelativeToolTip": "Booking_App\\Admins\\Service\\AdminQueryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "TravelHistoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Repository\\TravelHistoryRepository.cs",
+              "RelativeDocumentMoniker": "Booking_App\\TravelHistorys\\Repository\\TravelHistoryRepository.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Repository\\TravelHistoryRepository.cs",
+              "RelativeToolTip": "Booking_App\\TravelHistorys\\Repository\\TravelHistoryRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwC0AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T14:58:06.283Z"
+              "WhenOpened": "2025-01-23T14:54:13.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Users\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Models\\User.cs",
+              "RelativeToolTip": "Booking_App\\Users\\Models\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIAwwG8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:57:13.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserCommandService.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Service\\UserCommandService.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Users\\Service\\UserCommandService.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Service\\UserCommandService.cs",
+              "RelativeToolTip": "Booking_App\\Users\\Service\\UserCommandService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T23:56:42.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Service\\UserQueryService.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Users\\Service\\UserQueryService.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Service\\UserQueryService.cs",
+              "RelativeToolTip": "Booking_App\\Users\\Service\\UserQueryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T23:57:03.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViewAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\ViewAdmin.cs",
+              "RelativeDocumentMoniker": "Booking_App\\ViewAdmin.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\ViewAdmin.cs",
+              "RelativeToolTip": "Booking_App\\ViewAdmin.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T23:49:21.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Service\\IUserQueryService.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Users\\Service\\IUserQueryService.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Service\\IUserQueryService.cs",
+              "RelativeToolTip": "Booking_App\\Users\\Service\\IUserQueryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T23:56:58.59Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "IUserCommandService.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Service\\IUserCommandService.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Users\\Service\\IUserCommandService.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Service\\IUserCommandService.cs",
+              "RelativeToolTip": "Booking_App\\Users\\Service\\IUserCommandService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T23:56:29.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Program.cs",
               "RelativeDocumentMoniker": "Booking_App\\Program.cs",
               "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Program.cs",
               "RelativeToolTip": "Booking_App\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T17:00:14.1Z"
+              "WhenOpened": "2025-01-05T17:00:14.1Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Users\\Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "Booking_App\\Users\\Repository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T23:55:36.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ITravelHistoryQueryService.cs.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Service\\ITravelHistoryQueryService.cs.cs",
+              "RelativeDocumentMoniker": "Booking_App\\TravelHistorys\\Service\\ITravelHistoryQueryService.cs.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Service\\ITravelHistoryQueryService.cs.cs",
+              "RelativeToolTip": "Booking_App\\TravelHistorys\\Service\\ITravelHistoryQueryService.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T14:55:11.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PropertyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Repository\\PropertyRepository.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Propertys\\Repository\\PropertyRepository.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Repository\\PropertyRepository.cs",
+              "RelativeToolTip": "Booking_App\\Propertys\\Repository\\PropertyRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T03:03:37.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Users\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Models\\Admin.cs",
+              "RelativeToolTip": "Booking_App\\Users\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T15:28:04.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Customers\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Models\\Customer.cs",
-              "RelativeToolTip": "Booking_App\\Customers\\Models\\Customer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCcAAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Users\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Models\\Customer.cs",
+              "RelativeToolTip": "Booking_App\\Users\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T19:57:30.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AdminCommandService.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Service\\AdminCommandService.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Admins\\Service\\AdminCommandService.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Service\\AdminCommandService.cs",
-              "RelativeToolTip": "Booking_App\\Admins\\Service\\AdminCommandService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "ExceptionMessages.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\System\\ExceptionMessages.cs",
+              "RelativeDocumentMoniker": "Booking_App\\System\\ExceptionMessages.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\System\\ExceptionMessages.cs",
+              "RelativeToolTip": "Booking_App\\System\\ExceptionMessages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T15:11:38.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AdminRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Repository\\AdminRepository.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Admins\\Repository\\AdminRepository.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Repository\\AdminRepository.cs",
-              "RelativeToolTip": "Booking_App\\Admins\\Repository\\AdminRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T14:54:38.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IAdminRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Repository\\IAdminRepository.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Admins\\Repository\\IAdminRepository.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Repository\\IAdminRepository.cs",
-              "RelativeToolTip": "Booking_App\\Admins\\Repository\\IAdminRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T14:56:16.86Z"
+              "WhenOpened": "2025-01-23T15:27:49.391Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "NullAdminException.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Exceptions\\NullAdminException.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Admins\\Exceptions\\NullAdminException.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Exceptions\\NullAdminException.cs",
-              "RelativeToolTip": "Booking_App\\Admins\\Exceptions\\NullAdminException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Title": "ITravelHistoryCommandService.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Service\\ITravelHistoryCommandService.cs",
+              "RelativeDocumentMoniker": "Booking_App\\TravelHistorys\\Service\\ITravelHistoryCommandService.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Service\\ITravelHistoryCommandService.cs",
+              "RelativeToolTip": "Booking_App\\TravelHistorys\\Service\\ITravelHistoryCommandService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T16:04:00.891Z"
+              "WhenOpened": "2025-01-23T14:54:14.676Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "AdminNotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Exceptions\\AdminNotFoundException.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Admins\\Exceptions\\AdminNotFoundException.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Exceptions\\AdminNotFoundException.cs",
-              "RelativeToolTip": "Booking_App\\Admins\\Exceptions\\AdminNotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Title": "TravelHistoryQueryService.cs.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Service\\TravelHistoryQueryService.cs.cs",
+              "RelativeDocumentMoniker": "Booking_App\\TravelHistorys\\Service\\TravelHistoryQueryService.cs.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Service\\TravelHistoryQueryService.cs.cs",
+              "RelativeToolTip": "Booking_App\\TravelHistorys\\Service\\TravelHistoryQueryService.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T16:03:42.402Z"
+              "WhenOpened": "2025-01-23T14:54:53.38Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "TravelHistoryCommandService.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Service\\TravelHistoryCommandService.cs",
+              "RelativeDocumentMoniker": "Booking_App\\TravelHistorys\\Service\\TravelHistoryCommandService.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Service\\TravelHistoryCommandService.cs",
+              "RelativeToolTip": "Booking_App\\TravelHistorys\\Service\\TravelHistoryCommandService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T14:29:20.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NullUserException.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Exceptions\\NullUserException.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Users\\Exceptions\\NullUserException.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Exceptions\\NullUserException.cs",
+              "RelativeToolTip": "Booking_App\\Users\\Exceptions\\NullUserException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T00:05:18.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NullCustomerException.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Exceptions\\NullCustomerException.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Users\\Exceptions\\NullCustomerException.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Exceptions\\NullCustomerException.cs",
+              "RelativeToolTip": "Booking_App\\Users\\Exceptions\\NullCustomerException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:55:06.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Exceptions\\UserNotFoundException.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Users\\Exceptions\\UserNotFoundException.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Exceptions\\UserNotFoundException.cs",
+              "RelativeToolTip": "Booking_App\\Users\\Exceptions\\UserNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T00:03:47.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "CustomerNotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Exceptions\\CustomerNotFoundException.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Customers\\Exceptions\\CustomerNotFoundException.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Exceptions\\CustomerNotFoundException.cs",
-              "RelativeToolTip": "Booking_App\\Customers\\Exceptions\\CustomerNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Exceptions\\CustomerNotFoundException.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Users\\Exceptions\\CustomerNotFoundException.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Exceptions\\CustomerNotFoundException.cs",
+              "RelativeToolTip": "Booking_App\\Users\\Exceptions\\CustomerNotFoundException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T15:52:57.303Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "NullCustomerException.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Exceptions\\NullCustomerException.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Customers\\Exceptions\\NullCustomerException.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Exceptions\\NullCustomerException.cs",
-              "RelativeToolTip": "Booking_App\\Customers\\Exceptions\\NullCustomerException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 29,
+              "Title": "ITravelHistoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Repository\\ITravelHistoryRepository.cs",
+              "RelativeDocumentMoniker": "Booking_App\\TravelHistorys\\Repository\\ITravelHistoryRepository.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\TravelHistorys\\Repository\\ITravelHistoryRepository.cs",
+              "RelativeToolTip": "Booking_App\\TravelHistorys\\Repository\\ITravelHistoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:55:06.745Z"
+              "WhenOpened": "2025-01-23T14:54:10.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Repository\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Customers\\Repository\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Repository\\CustomerRepository.cs",
-              "RelativeToolTip": "Booking_App\\Customers\\Repository\\CustomerRepository.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAowHwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T15:47:18.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ICustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Repository\\ICustomerRepository.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Customers\\Repository\\ICustomerRepository.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Customers\\Repository\\ICustomerRepository.cs",
-              "RelativeToolTip": "Booking_App\\Customers\\Repository\\ICustomerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T15:47:48.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "NullPropertyException.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Exceptions\\NullPropertyException.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Propertys\\Exceptions\\NullPropertyException.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Exceptions\\NullPropertyException.cs",
-              "RelativeToolTip": "Booking_App\\Propertys\\Exceptions\\NullPropertyException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:41:58.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "PropertyNotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Exceptions\\PropertyNotFoundException.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Propertys\\Exceptions\\PropertyNotFoundException.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Exceptions\\PropertyNotFoundException.cs",
-              "RelativeToolTip": "Booking_App\\Propertys\\Exceptions\\PropertyNotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:35:04.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "IPropertyRepository.cs",
               "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Repository\\IPropertyRepository.cs",
               "RelativeDocumentMoniker": "Booking_App\\Propertys\\Repository\\IPropertyRepository.cs",
@@ -499,19 +512,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IPropertyCommandService.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Service\\IPropertyCommandService.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Propertys\\Service\\IPropertyCommandService.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Service\\IPropertyCommandService.cs",
-              "RelativeToolTip": "Booking_App\\Propertys\\Service\\IPropertyCommandService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "DocumentIndex": 28,
+              "Title": "AdminNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Exceptions\\AdminNotFoundException.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Users\\Exceptions\\AdminNotFoundException.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Exceptions\\AdminNotFoundException.cs",
+              "RelativeToolTip": "Booking_App\\Users\\Exceptions\\AdminNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T15:58:59.803Z"
+              "WhenOpened": "2025-01-20T16:03:42.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 27,
+              "Title": "NullAdminException.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Exceptions\\NullAdminException.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Users\\Exceptions\\NullAdminException.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Users\\Exceptions\\NullAdminException.cs",
+              "RelativeToolTip": "Booking_App\\Users\\Exceptions\\NullAdminException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T16:04:00.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PropertyNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Exceptions\\PropertyNotFoundException.cs",
+              "RelativeDocumentMoniker": "Booking_App\\Propertys\\Exceptions\\PropertyNotFoundException.cs",
+              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Exceptions\\PropertyNotFoundException.cs",
+              "RelativeToolTip": "Booking_App\\Propertys\\Exceptions\\PropertyNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:35:04.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "IPropertyQueryService.cs",
               "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Service\\IPropertyQueryService.cs",
               "RelativeDocumentMoniker": "Booking_App\\Propertys\\Service\\IPropertyQueryService.cs",
@@ -520,42 +557,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T16:00:28.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ProprtyCommandService.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Service\\ProprtyCommandService.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Propertys\\Service\\ProprtyCommandService.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Service\\ProprtyCommandService.cs",
-              "RelativeToolTip": "Booking_App\\Propertys\\Service\\ProprtyCommandService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T15:58:38.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "PropertyQueryService.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Service\\PropertyQueryService.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Propertys\\Service\\PropertyQueryService.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Propertys\\Service\\PropertyQueryService.cs",
-              "RelativeToolTip": "Booking_App\\Propertys\\Service\\PropertyQueryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T16:00:42.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Models\\Admin.cs",
-              "RelativeDocumentMoniker": "Booking_App\\Admins\\Models\\Admin.cs",
-              "ToolTip": "C:\\Users\\Horia\\source\\repos\\Booking_App\\Booking_App\\Admins\\Models\\Admin.cs",
-              "RelativeToolTip": "Booking_App\\Admins\\Models\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T19:56:43.329Z"
             }
           ]
         }

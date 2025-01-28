@@ -41,8 +41,11 @@ namespace Booking_App.Propertys.Repository
         public string GetFilePath()
         {
             string currentDirectory = Directory.GetCurrentDirectory();
+
             string folder = Path.Combine(currentDirectory, "data");
+
             string file = Path.Combine(folder, "Property");
+
             return file;
         }
 

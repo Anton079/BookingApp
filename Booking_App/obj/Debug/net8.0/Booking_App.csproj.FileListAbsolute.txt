@@ -1,0 +1,15 @@
+C:\Users\Horia\source\repos\Booking_App\Booking_App\bin\Debug\net8.0\Booking_App.exe
+C:\Users\Horia\source\repos\Booking_App\Booking_App\bin\Debug\net8.0\Booking_App.deps.json
+C:\Users\Horia\source\repos\Booking_App\Booking_App\bin\Debug\net8.0\Booking_App.runtimeconfig.json
+C:\Users\Horia\source\repos\Booking_App\Booking_App\bin\Debug\net8.0\Booking_App.dll
+C:\Users\Horia\source\repos\Booking_App\Booking_App\bin\Debug\net8.0\Booking_App.pdb
+C:\Users\Horia\source\repos\Booking_App\Booking_App\obj\Debug\net8.0\Booking_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Horia\source\repos\Booking_App\Booking_App\obj\Debug\net8.0\Booking_App.AssemblyInfoInputs.cache
+C:\Users\Horia\source\repos\Booking_App\Booking_App\obj\Debug\net8.0\Booking_App.AssemblyInfo.cs
+C:\Users\Horia\source\repos\Booking_App\Booking_App\obj\Debug\net8.0\Booking_App.csproj.CoreCompileInputs.cache
+C:\Users\Horia\source\repos\Booking_App\Booking_App\obj\Debug\net8.0\Booking_App.sourcelink.json
+C:\Users\Horia\source\repos\Booking_App\Booking_App\obj\Debug\net8.0\Booking_App.dll
+C:\Users\Horia\source\repos\Booking_App\Booking_App\obj\Debug\net8.0\refint\Booking_App.dll
+C:\Users\Horia\source\repos\Booking_App\Booking_App\obj\Debug\net8.0\Booking_App.pdb
+C:\Users\Horia\source\repos\Booking_App\Booking_App\obj\Debug\net8.0\Booking_App.genruntimeconfig.cache
+C:\Users\Horia\source\repos\Booking_App\Booking_App\obj\Debug\net8.0\ref\Booking_App.dll

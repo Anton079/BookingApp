@@ -19,5 +19,13 @@ namespace Booking_App.System
         //Admin
         public static readonly string NullAdminException = "Admin nu poate fi null";
         public static readonly string AdminNotFoundException = "Admin nu paote fi gasit!";
+
+        //User
+        public static readonly string UserNotFoundException = "Userul nu a fost gasit!";
+        public static readonly string NullUserException = "Userul nu poate fi null!";
+
+        //travelHistory
+        public static readonly string NullTravelHistoryException = "Travel History nu poate fi null";
+        public static readonly string InvalidTravelHistoryIdException = "TravelHistory id nu poate fi gasit";
     }
 }

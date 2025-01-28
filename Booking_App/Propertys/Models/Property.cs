@@ -144,6 +144,24 @@ namespace Booking_App.Propertys.Models
         {
             return $"{Id},{Type},{Address},{Description},{BedCount},{RoomCount},{MaxGuests},{PricePerNight},{Availability},{Rating},{CheckInTime},{CheckOutTime}";
         }
+
+        public string PropertyInfo()
+        {
+            string text = " ";
+            text += "ID: " + _id + "\n";
+            text += "Type: " + _type + "\n";
+            text += "Address: " + _address + "\n";
+            text += "Description: " + _description + "\n";
+            text += "Bed Count: " + _bedCount + "\n";
+            text += "Room Count: " + _roomCount + "\n";
+            text += "Max Guests: " + _maxGuests + "\n";
+            text += "Price Per Night: " + _pricePerNight + "\n";
+            text += "Availability: " + _availability + "\n";
+            text += "Rating: " + _rating + "\n";
+            text += "Check-in Time: " + _checkInTime + "\n";
+            text += "Check-out Time: " + _checkOutTime + "\n";
+            return text;
+        }
     }
 
 }

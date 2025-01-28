@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="TravelHistorys\Exception\" />
+    <Folder Include="System\Exceptions\" />
   </ItemGroup>
 
 </Project>

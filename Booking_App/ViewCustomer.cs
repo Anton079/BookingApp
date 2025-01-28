@@ -1,9 +1,10 @@
-﻿using Booking_App.Customers.Exceptions;
-using Booking_App.Customers.Models;
-using Booking_App.Propertys.Exceptions;
+﻿using Booking_App.Propertys.Exceptions;
 using Booking_App.Propertys.Models;
 using Booking_App.Propertys.Service;
 using Booking_App.System;
+using Booking_App.TravelHistorys.Models;
+using Booking_App.TravelHistorys.Service;
+using Booking_App.Users.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,12 +18,15 @@ namespace Booking_App
         private Customer _customer;
         private IPropertyQueryService _propertyQueryService;
 
+        private ITravelHistoryCommandService _travelHistoryCommandService;
+        private ITravelHistoryQueryService _travelHistoryQueryService;
 
-        public ViewCustomer(Customer customer, IPropertyQueryService propertyQueryService)
+        public ViewCustomer(Customer customer, IPropertyQueryService propertyQueryService, ITravelHistoryCommandService travelHistoryCommandService, ITravelHistoryQueryService travelHistoryQueryService)
         {
             _customer = customer;
             _propertyQueryService = propertyQueryService;
-
+            _travelHistoryCommandService = travelHistoryCommandService;
+            _travelHistoryQueryService = travelHistoryQueryService;
         }
 
         public void MeniuView()
@@ -34,8 +38,7 @@ namespace Booking_App
             Console.WriteLine("2. Cauta o proprietate dupa nume");
             Console.WriteLine("3. Filtrare proprietati dupa pret");
             Console.WriteLine("4. Rezerva o proprietate");
-            Console.WriteLine("5. Vizualizeaza rezervarile mele");
-            Console.WriteLine("6. Iesire");
+            Console.WriteLine("5. Iesire");
             Console.WriteLine("=========================");
         }
 
@@ -55,22 +58,24 @@ namespace Booking_App
                         case "1":
                             AfisareProprietati();
                             break;
+
                         case "2":
                             SearchProperty();
                             break;
+
                         case "3":
                             FilterPropertiesByPrice();
                             break;
+
                         case "4":
-                            BookProperty();
+                            ViewReservations();
                             break;
+
                         case "5":
-                            //ViewReservations();
-                            break;
-                        case "6":
                             Console.WriteLine("La revedere!");
                             running = false;
                             break;
+
                         default:
                             Console.WriteLine("Optiune invalida. Incercati din nou.");
                             break;
@@ -80,7 +85,6 @@ namespace Booking_App
                 {
                     Console.WriteLine(ex.Message);
                 }
-                Console.WriteLine();
             }
         }
 
@@ -162,24 +166,30 @@ namespace Booking_App
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex);
             }
         }
 
-        public void BookProperty()
+        public void ViewReservations()
         {
             try
             {
+                int idRandom = _travelHistoryCommandService.GenerateId();
+
+                int idCustomer = _customer.Id;
+
                 Console.WriteLine("Introduceti ID-ul proprietatii pe care doriti sa o rezervati:");
                 int propertyId = int.Parse(Console.ReadLine());
 
                 Console.WriteLine("Introduceti data de inceput (YYYY-MM-DD):");
-                DateTime startDate = DateTime.Parse(Console.ReadLine());
+                int startDate = Int32.Parse(Console.ReadLine());
 
                 Console.WriteLine("Introduceti data de sfarsit (YYYY-MM-DD):");
-                DateTime endDate = DateTime.Parse(Console.ReadLine());
+                int endDate = Int32.Parse(Console.ReadLine());
 
-                //_reservationCommandService.(_customer.Id, propertyId, startDate, endDate);
+                TravelHistory travelHistoryAdd = new TravelHistory(idRandom, idCustomer, propertyId, startDate, endDate);
+
+                _travelHistoryCommandService.AddTravelHistory(travelHistoryAdd);
                 Console.WriteLine("Rezervare efectuata cu succes!");
             }
             catch (PropertyNotFoundException ex)
@@ -188,7 +198,7 @@ namespace Booking_App
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"A aparut o eroare la rezervare: {ex.Message}");
+                Console.WriteLine(ex);
             }
         }
     }

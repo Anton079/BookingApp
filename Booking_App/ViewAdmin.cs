@@ -3,6 +3,7 @@ using Booking_App.Propertys.Repository;
 using Booking_App.Propertys.Service;
 using Booking_App.Users.Models;
 using Booking_App.Users.Repository;
+using Booking_App.Users.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,17 +15,21 @@ namespace Booking_App
     public class ViewAdmin
     {
         private Admin _admin;
-        private IUserRepository _userRepository;
-        private IPropertyRepository _propertyRepository;
+        private IUserQueryService _userQueryService;
+        private IUserCommandService _userCommandService;
 
-        public ViewAdmin(
-            Admin admin, 
-            IUserRepository userRepository,
-            IPropertyRepository propertyRepository)
+        private IPropertyQueryService _propertyQueryService;
+        private IPropertyCommandService _propertyCommandService;
+
+        public ViewAdmin(Admin admin, IUserCommandService userCommandService, IUserQueryService userQueryService, IPropertyQueryService propertyQueryService, IPropertyCommandService propertyCommandService)
         {
             _admin = admin;
-            _userRepository = userRepository;
-            _propertyRepository = propertyRepository;
+
+            _userCommandService = userCommandService;
+            _userQueryService = userQueryService;
+
+            _propertyQueryService = propertyQueryService;
+            _propertyCommandService = propertyCommandService;
         }
 
         public void AdminView()
@@ -39,6 +44,7 @@ namespace Booking_App
             bool running = true;
             while (running)
             {
+                AdminView();
                 int alegere = Int32.Parse(Console.ReadLine());
                 switch(alegere)
                 {
@@ -63,7 +69,7 @@ namespace Booking_App
 
         public void AfisareUsers()
         {
-            foreach(User x in _userRepository.GetAll())
+            foreach(User x in _userQueryService.GetAllUsers())
             {
                 Console.WriteLine(x.UserInfo());
             }
@@ -71,9 +77,9 @@ namespace Booking_App
 
         public void AfisareProperty()
         {
-            foreach(Property x in _propertyRepository.GetAll())
+            foreach(Property x in _propertyQueryService.GetAllProperties())
             {
-                Console.WriteLine(x.PropertyInfo);
+                Console.WriteLine(x.PropertyInfo());
             }
         }
 
@@ -91,10 +97,10 @@ namespace Booking_App
                     AddProduct();
                     break;
                 case "2":
-                    EditProduct();
+                    RemoveProduct();
                     break;
                 case "3":
-                    RemoveProduct();
+                    ManageProperty();
                     break;
                 default:
                     Console.WriteLine("Optiune invalida.");
@@ -104,8 +110,6 @@ namespace Booking_App
 
         private void AddProduct()
         {
-            int generatorId = _propertyRepository.GenerateId();
-
             Console.WriteLine("Ce tip este proprietatea(vila, apartament, camera de hotel)");
             string propertyType = Console.ReadLine();
 
@@ -139,9 +143,8 @@ namespace Booking_App
             Console.WriteLine("Introduceti noul CheckOut:");
             int newCheckOut = Int32.Parse(Console.ReadLine());
 
-            Property newProperty = new Property(generatorId, propertyType, newAdress, descriere, nrPaturi, newRoomCount, newGuestCount, pricePerNight, 
+            _propertyCommandService.AddProperty(propertyType, newAdress, descriere, nrPaturi, newRoomCount, newGuestCount, pricePerNight,
                 isAvailable, newRating, newChecIng, newCheckOut);
-            _propertyRepository.AddProperty(newProperty);
 
             Console.WriteLine("Propietatea a fost adaugat cu succes!");
 
@@ -165,7 +168,7 @@ namespace Booking_App
             Console.WriteLine("10. checkOut ul");
             int option = Int32.Parse(Console.ReadLine());
 
-            Property propertyToEdit = _propertyRepository.FindById(productId);
+            Property propertyToEdit = _propertyQueryService.GetPropertyById(productId);
 
             switch (option)
             {
@@ -234,7 +237,7 @@ namespace Booking_App
                     return;
             }
 
-            _propertyRepository.UpdateProperty(productId, propertyToEdit);
+            _propertyCommandService.UpdateProperty(productId, propertyToEdit);
             Console.WriteLine("Produsul a fost modificat cu succes!");
         }
 
@@ -243,7 +246,7 @@ namespace Booking_App
             Console.WriteLine("Introduceti ID-ul produsului pe care doriti sa il stergeti:");
             int productId = int.Parse(Console.ReadLine());
 
-            _propertyRepository.Remove(productId);
+            _userCommandService.RemoveUser(productId);
             Console.WriteLine("Produsul a fost sters cu succes!");
         }
     }

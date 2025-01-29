@@ -26,7 +26,10 @@ namespace Booking_App.Users.Service
         public User FindUserById(int id)
         {
             User user = _userRepository.FindById(id);
-            if (user == null) { throw new UserNotFoundException(); }
+            if (user == null) 
+            { 
+                throw new UserNotFoundException(); 
+            }
             return user;
         }
     }

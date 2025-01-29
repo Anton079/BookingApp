@@ -9,7 +9,8 @@ namespace Booking_App.Propertys.Service
 {
     public interface IPropertyCommandService
     {
-        Property AddProperty(Property property);
+        Property AddProperty(string propertyType, string newAdress, string descriere, int nrPaturi, int newRoomCount, int newGuestCount, int pricePerNight,
+                bool isAvailable, double newRating, int newChecIng, int newCheckOut);
         Property UpdateProperty(int id, Property updatedProperty);
         int RemoveProperty(int id);
     }

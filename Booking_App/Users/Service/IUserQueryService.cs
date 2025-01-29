@@ -10,7 +10,6 @@ namespace Booking_App.Users.Service
     public interface IUserQueryService
     {
         List<User> GetAllUsers();
-
         User FindUserById(int id);
     }
 }

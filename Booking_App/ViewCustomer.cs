@@ -45,45 +45,37 @@ namespace Booking_App
         public void Play()
         {
             bool running = true;
-
             while (running)
             {
-                try
+                MeniuView();
+                int alegere = Int32.Parse(Console.ReadLine());
+
+                switch (alegere)
                 {
-                    MeniuView();
-                    string alegere = Console.ReadLine()?.Trim();
+                    case 1:
+                        AfisareProprietati();
+                        break;
 
-                    switch (alegere)
-                    {
-                        case "1":
-                            AfisareProprietati();
-                            break;
+                    case 2:
+                        SearchProperty();
+                        break;
 
-                        case "2":
-                            SearchProperty();
-                            break;
+                    case 3:
+                        FilterPropertiesByPrice();
+                        break;
 
-                        case "3":
-                            FilterPropertiesByPrice();
-                            break;
+                    case 4:
+                        ViewReservations();
+                        break;
 
-                        case "4":
-                            ViewReservations();
-                            break;
+                    case 5:
+                        Console.WriteLine("La revedere!");
+                        running = false;
+                        break;
 
-                        case "5":
-                            Console.WriteLine("La revedere!");
-                            running = false;
-                            break;
-
-                        default:
-                            Console.WriteLine("Optiune invalida. Incercati din nou.");
-                            break;
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
+                    default:
+                        Console.WriteLine("Optiune invalida. Incercati din nou.");
+                        break;
                 }
             }
         }

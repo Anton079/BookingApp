@@ -16,25 +16,24 @@ namespace Booking_App
 {
     public class ViewLogin
     {
-        private IPropertyRepository _propertyRepository;
         private IPropertyQueryService _propertyQueryService;
-
+        private IPropertyCommandService _propertyCommandService;
         private ITravelHistoryCommandService _travelHistoryCommandService;
         private ITravelHistoryQueryService _travelHistoryQueryService;
-
         private IUserQueryService _userQueryService;
-        private IUserRepository _userRepository;
+        private IUserCommandService _userCommandService;
 
-        public ViewLogin(IUserQueryService userQueryService, IPropertyRepository propertyRepository, IPropertyQueryService propertyQueryService, ITravelHistoryCommandService travelHistoryCommandService, 
-            ITravelHistoryQueryService travelHistoryQueryService, IUserRepository userRepository)
+        public ViewLogin(IPropertyCommandService propertyCommandService, IUserCommandService userCommandService, IUserQueryService userQueryService, IPropertyQueryService propertyQueryService, ITravelHistoryCommandService travelHistoryCommandService, 
+            ITravelHistoryQueryService travelHistoryQueryService)
         {
             _userQueryService = userQueryService;
-            _propertyRepository = propertyRepository;
+            _userCommandService = userCommandService;
+
             _propertyQueryService = propertyQueryService;
+            _propertyCommandService = propertyCommandService;
 
             _travelHistoryCommandService = travelHistoryCommandService;
             _travelHistoryQueryService = travelHistoryQueryService;
-            _userRepository = userRepository;
         }
 
         public void LoginMeniu()
@@ -89,9 +88,10 @@ namespace Booking_App
                     case "Admin":
                         if (user is Admin admin)
                         {
-                            ViewAdmin viewAdmin = new ViewAdmin(admin,
-                                _userRepository,
-                                _propertyRepository);
+                            ViewAdmin viewAdmin = new ViewAdmin(admin, _userCommandService, 
+                                _userQueryService, _propertyQueryService, _propertyCommandService);
+
+                            viewAdmin.Play();
                         }
                         break;
 
@@ -102,6 +102,8 @@ namespace Booking_App
                                 _propertyQueryService,
                                 _travelHistoryCommandService,
                                 _travelHistoryQueryService);
+
+                            viewCustomer.Play();
                         }
                         break;
 
@@ -109,25 +111,24 @@ namespace Booking_App
                         Console.WriteLine("Tip utilizator necunoscut.");
                         break;
                 }
-            }catch (CustomerNotFoundException ex) {Console.WriteLine(ex.Message); return; }
-            catch (AdminNotFoundException ex) { Console.WriteLine(ex.Message); return; }
-            catch (UserNotFoundException ex) { Console.WriteLine(ex.Message); return; }
-            catch (NullUserException ex) { Console.WriteLine(ex.Message); return; }
+            }catch (UserNotFoundException ex) { Console.WriteLine(ex.Message); return; }
         }
 
         public void NewRegistration()
         {
-            Console.WriteLine("Selectati tipul de utilizator pentru inregistrare: Admin, Client, Utilizator");
+            Console.WriteLine("Selectati tipul de utilizator pentru inregistrare: Admin sau Customer");
             string tip = Console.ReadLine().ToLower();
 
             switch (tip)
             {
-                case "Admin":
+                case "admin":
                     RegisterAdmin();
                     break;
-                case "Customer":
+
+                case "customer":
                     RegisterCustomer();
                     break;
+
                 default:
                     Console.WriteLine("Tip utilizator invalid.");
                     break;
@@ -136,7 +137,6 @@ namespace Booking_App
 
         private void RegisterAdmin()
         {
-            string type = "Admin";
 
             Console.WriteLine("Introduceti numele de utilizator:");
             string firstName = Console.ReadLine();
@@ -150,15 +150,15 @@ namespace Booking_App
             Console.WriteLine("Introduceti parola:");
             string password = Console.ReadLine();
 
-            Console.WriteLine("Introduceti adresa:");
+            Console.WriteLine("Introduceti numarul de telefon:");
             int phone = Int32.Parse(Console.ReadLine());
+
+            string type = "Admin";
 
             try
             {
-                int id = _userRepository.GenerateId();
-                Admin admin = new Admin(id, type, firstName, lastName, email, password, phone);
-                _userRepository.AddUser(admin);
-                Console.WriteLine($"Admin înregistrat cu succes! ID-ul dumneavoastră este: {id}");
+                _userCommandService.RegisterAdmin(type, firstName, lastName, email, password, phone);
+                Console.WriteLine($"Admin înregistrat cu succes!");
             }
             catch (NullAdminException ex)
             {
@@ -192,11 +192,8 @@ namespace Booking_App
 
             try
             {
-                int id = _userRepository.GenerateId();
-                int membershipLevel = 1;
-                Customer customer = new Customer( id, type, firstName, lastName, email, password, phone, preferredPaymentMethod, membershipLevel);
-                _userRepository.AddUser(customer);
-                Console.WriteLine($"Client înregistrat cu succes! ID-ul dumneavoastră este: {id}");
+                _userCommandService.RegisterCustomer(type, firstName, lastName, email, password, phone, preferredPaymentMethod);
+                Console.WriteLine("Client înregistrat cu succes!");
             }
             catch (NullCustomerException ex)
             {
@@ -224,7 +221,7 @@ namespace Booking_App
                         if (admin != null)
                         {
                             admin.Password = parolaNoua;
-                            _userRepository.UpdateUser(id, admin);
+                            _userCommandService.UpdateUser(id, admin);
                             Console.WriteLine("Parola actualizată cu succes pentru Admin.");
                         }
                         else
@@ -243,7 +240,7 @@ namespace Booking_App
                         if (customer != null)
                         {
                             customer.Password = parolaNoua;
-                            _userRepository.UpdateUser(id, customer);
+                            _userCommandService.UpdateUser(id, customer);
                             Console.WriteLine("Parola actualizată cu succes pentru Client.");
                         }
                         else

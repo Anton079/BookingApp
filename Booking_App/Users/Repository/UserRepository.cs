@@ -21,24 +21,19 @@ namespace Booking_App.Users.Repository
         {
             try
             {
-                string filePath = GetFilePath();
-                if (!File.Exists(filePath))
-                {
-                    Console.WriteLine($"Fisierul {filePath} nu exista");
-                    return;
-                }
-
-                using (StreamReader sr = new StreamReader(filePath))
+                using (StreamReader sr = new StreamReader(GetFilePath()))
                 {
                     string line;
                     while ((line = sr.ReadLine()) != null)
                     {
-                        string type = line.Split(',')[0];
+                        string type = line.Split(',')[1];
 
                         switch (type)
                         {
                             case "Admin": userList.Add(new Admin(line)); break;
                             case "Customer": userList.Add(new Customer(line)); break;
+
+                            default:break;
                         }
                     }
                 }
@@ -114,7 +109,7 @@ namespace Booking_App.Users.Repository
         {
             foreach (User user in userList)
             {
-                if (user.Id == id)
+                if (user.Id != id)
                 {
                     return user;
                 }

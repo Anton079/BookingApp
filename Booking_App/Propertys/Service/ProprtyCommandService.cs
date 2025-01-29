@@ -18,14 +18,18 @@ namespace Booking_App.Propertys.Service
             _propertyRepository = propertyRepository;
         }
 
-        public Property AddProperty(Property property)
+        public Property AddProperty(string propertyType, string newAdress, string descriere, int nrPaturi, int newRoomCount, int newGuestCount, int pricePerNight,
+                bool isAvailable, double newRating, int newChecIng, int newCheckOut)
         {
-            if (property == null)
+            int idGenerate = _propertyRepository.GenerateId();
+            Property propertyNew = new Property(idGenerate, propertyType, newAdress, descriere, nrPaturi, newRoomCount, newGuestCount, pricePerNight,
+                isAvailable, newRating, newChecIng, newCheckOut);
+
+            if (propertyNew == null)
             {
                 throw new NullPropertyException();
             }
-            property.Id = _propertyRepository.GenerateId();
-            return _propertyRepository.AddProperty(property);
+            return _propertyRepository.AddProperty(propertyNew);
         }
 
         public Property UpdateProperty(int id, Property updatedProperty)
